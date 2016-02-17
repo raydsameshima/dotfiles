@@ -1,5 +1,5 @@
 /*
-maxima-init.mac
+maxima_init.mac
 Ray D. Sameshima
 */
 gnuplot_command:"/Applications/Gnuplot.app/Contents/Resources/bin/gnuplot"$

@@ -1,3 +1,4 @@
+"Ray D. Sameshima
 "comment
 ".vimrc
 set number
