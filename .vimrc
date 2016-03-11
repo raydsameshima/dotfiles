@@ -19,3 +19,6 @@ set ignorecase
 " オンカーソルでz=をすれば候補を表示、zgで辞書登録、zwで間違ってるとして登録
 " u undo
 " Ctrl-r redo
+
+" 置換、以下でファイル内全てのhogeをfugaに置換
+" :%s/hoge/fuga/g
