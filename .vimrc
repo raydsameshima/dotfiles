@@ -1,6 +1,6 @@
-"Ray D. Sameshima
-"comment
-".vimrc
+" .vimrc
+" Ray D. Sameshima
+" comment
 set number
 set title
 set showmatch
