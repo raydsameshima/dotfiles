@@ -22,3 +22,5 @@ set ignorecase
 
 " 置換、以下でファイル内全てのhogeをfugaに置換
 " :%s/hoge/fuga/g
+
+" ペーストする前に:set paste 終わったら:set nopaste
