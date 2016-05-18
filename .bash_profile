@@ -1,5 +1,6 @@
 # .bash_profile
 # Ray D. Sameshima
+# To load this dotfile, use source command.
 
 GREP_OPTIONS="--color=always";export GREP_OPTIONS
 
@@ -10,7 +11,11 @@ alias form="~/./form"
 
 export PATH=$HOME/Library/Haskell/bin:$PATH
 
-# to be deleted
-alias sage="~/SageMath/./sage"
-
+# singular
+# to quit singular, put
+# quit;
 alias singular="open /Applications/Singular.app/"
+
+# Haskell
+alias ghci="stack ghci"
+alias ghc="stack ghc"
