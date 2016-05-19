@@ -17,5 +17,5 @@ export PATH=$HOME/Library/Haskell/bin:$PATH
 alias singular="open /Applications/Singular.app/"
 
 # Haskell
-alias ghci="stack ghci"
-alias ghc="stack ghc"
+# alias ghci="stack ghci"
+# alias ghc="stack ghc"
