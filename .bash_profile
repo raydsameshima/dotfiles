@@ -19,3 +19,9 @@ alias singular="open /Applications/Singular.app/"
 # Haskell
 # alias ghci="stack ghci"
 # alias ghc="stack ghc"
+
+# Common Lisp, sbcl
+# to quit sbcl interpreter, (exit)
+
+# rmaxima
+# to_lisp (); (to-maxima)
