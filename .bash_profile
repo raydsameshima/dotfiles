@@ -2,6 +2,8 @@
 # Ray D. Sameshima
 # To load this dotfile, use "source" command.
 
+export PATH=$HOME/Library/Haskell/bin:$PATH
+
 GREP_OPTIONS="--color=always";export GREP_OPTIONS
 
 alias ls="ls -G"
@@ -9,7 +11,6 @@ alias ls="ls -G"
 # symbolic manipulation 
 alias form="~/./form"
 
-export PATH=$HOME/Library/Haskell/bin:$PATH
 
 # singular
 # to quit singular, put
@@ -20,6 +21,7 @@ alias singular="open /Applications/Singular.app/"
 alias ghc="stack ghc --"
 alias ghci="stack ghc -- --interactive"
 alias runghc="stack runghc --"
+alias hlint="stack exec hlint"
 # alias ghci="stack ghci"
 # alias ghc="stack ghc"
 
