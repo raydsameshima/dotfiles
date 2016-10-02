@@ -1,6 +1,6 @@
 # .bash_profile
 # Ray D. Sameshima
-# To load this dotfile, use source command.
+# To load this dotfile, use "source" command.
 
 GREP_OPTIONS="--color=always";export GREP_OPTIONS
 
@@ -17,6 +17,9 @@ export PATH=$HOME/Library/Haskell/bin:$PATH
 alias singular="open /Applications/Singular.app/"
 
 # Haskell
+alias ghc="stack ghc --"
+alias ghci="stack ghc -- --interactive"
+alias runghc="stack runghc --"
 # alias ghci="stack ghci"
 # alias ghc="stack ghc"
 

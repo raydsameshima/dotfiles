@@ -24,3 +24,5 @@ set ignorecase
 " :%s/hoge/fuga/g
 
 " ペーストする前に:set paste 終わったら:set nopaste
+
+
