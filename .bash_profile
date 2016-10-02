@@ -11,7 +11,6 @@ alias ls="ls -G"
 # symbolic manipulation 
 alias form="~/./form"
 
-
 # singular
 # to quit singular, put
 # quit;
@@ -30,3 +29,4 @@ alias hlint="stack exec hlint"
 
 # rmaxima
 # to_lisp (); (to-maxima)
+alias maxima="rmaxima"
