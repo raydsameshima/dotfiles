@@ -30,3 +30,8 @@ alias hlint="stack exec hlint"
 
 # rmaxima
 # to_lisp (); (to-maxima)
+
+# mit-scheme
+# Use the file in
+#   https://gist.github.com/bobbyno/3325982
+alias mit-scheme="rlwrap -r -c -f ~/.mit_scheme_bindings.txt mit-scheme"
