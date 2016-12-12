@@ -25,3 +25,7 @@ set ignorecase
 
 " ペーストする前に:set paste 終わったら:set nopaste
 
+" Jump to last modification line.
+"  '.
+" Jump to exact spot in last modification line.
+  `.

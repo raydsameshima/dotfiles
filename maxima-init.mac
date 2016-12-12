@@ -2,12 +2,13 @@
 maxima_init.mac
 Ray D. Sameshima
 */
-/* 
+ 
 gnuplot_command:"/Applications/Gnuplot.app/Contents/Resources/bin/gnuplot"$ 
 set_plot_option([gnuplot_term, qt])$
-*/
+/*
 gnuplot_command:"/usr/local/bin/gnuplot"$
 print("maxima_userdir: ", maxima_userdir)$
+*/
 /*
 FullSimplify: (full)ratsimp
             : radcon
