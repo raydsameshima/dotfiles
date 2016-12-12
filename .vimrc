@@ -28,4 +28,4 @@ set ignorecase
 " Jump to last modification line.
 "  '.
 " Jump to exact spot in last modification line.
-  `.
+"  `.
