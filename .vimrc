@@ -30,3 +30,5 @@ set ignorecase
 "  '.
 " Jump to exact spot in last modification line.
 "  `.
+
+:let fortran_free_source=1
