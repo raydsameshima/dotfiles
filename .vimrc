@@ -16,7 +16,8 @@ set ignorecase
 " スペルチェック、unspellで解除
 " :set spell
 " ]s,[sでスペルミスへ移動
-" オンカーソルでz=をすれば候補を表示、zgで辞書登録、zwで間違ってるとして登録
+" オンカーソルでz=をすれば候補を表示、zgで辞書登録、
+" zwで間違ってるとして登録
 " u undo
 " Ctrl-r redo
 
@@ -32,3 +33,6 @@ set ignorecase
 "  `.
 
 :let fortran_free_source=1
+
+" remove unwanted spaces
+" :%s/\s\+$//
