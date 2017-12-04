@@ -25,4 +25,3 @@ set ignorecase
 
 " ペーストする前に:set paste 終わったら:set nopaste
 
-

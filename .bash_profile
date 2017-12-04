@@ -2,7 +2,7 @@
 # Ray D. Sameshima
 # To load this dotfile, use "source" command.
 
-export PATH=$HOME/Library/Haskell/bin:$PATH
+# export PATH=$HOME/Library/Haskell/bin:$PATH
 
 GREP_OPTIONS="--color=always";export GREP_OPTIONS
 
