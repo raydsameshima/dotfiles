@@ -9,12 +9,12 @@ GREP_OPTIONS="--color=always";export GREP_OPTIONS
 alias ls="ls -G"
 
 # symbolic manipulation 
-alias form="~/./form"
+# alias form="~/./form"
 
 # singular
 # to quit singular, put
 # quit;
-alias singular="open /Applications/Singular.app/"
+# alias singular="open /Applications/Singular.app/"
 
 # Haskell
 alias ghc="stack ghc --"
@@ -29,4 +29,9 @@ alias hlint="stack exec hlint"
 
 # rmaxima
 # to_lisp (); (to-maxima)
-alias maxima="rmaxima"
+# alias maxima="rmaxima"
+
+# mit-scheme
+# Use the file in
+#   https://gist.github.com/bobbyno/3325982
+alias mit-scheme="rlwrap -r -c -f ~/.mit_scheme_bindings.txt mit-scheme"

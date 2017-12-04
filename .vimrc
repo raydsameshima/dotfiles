@@ -16,7 +16,8 @@ set ignorecase
 " スペルチェック、unspellで解除
 " :set spell
 " ]s,[sでスペルミスへ移動
-" オンカーソルでz=をすれば候補を表示、zgで辞書登録、zwで間違ってるとして登録
+" オンカーソルでz=をすれば候補を表示、zgで辞書登録、
+" zwで間違ってるとして登録
 " u undo
 " Ctrl-r redo
 
@@ -25,3 +26,13 @@ set ignorecase
 
 " ペーストする前に:set paste 終わったら:set nopaste
 
+" Join two lines with J.
+" Jump to last modification line.
+"  '.
+" Jump to exact spot in last modification line.
+"  `.
+
+:let fortran_free_source=1
+
+" remove unwanted spaces
+" :%s/\s\+$//
